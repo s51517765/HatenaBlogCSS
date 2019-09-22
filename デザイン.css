@@ -1,0 +1,42 @@
+/* <system section="theme" selected="life"> */
+@import "/css/theme/life/life.css";
+/* </system> */
+h3 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: aliceblue;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+.subscribe-button {
+  margin: 1em 0;
+  text-align: center;
+}
+.subscribe-button a {
+display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  line-height: 38px;
+  text-decoration: none;
+  text-align: center;
+  color: #494949;
+  background-color: aliceblue; /* ここでボタンの色 */
+  box-shadow: 0 4px #7db4e6; /* ここでボタンの影の部分の色 */
+  border-radius: 4px;
+  transition: all .3s;
+  font-weight: bold; 
+
+}
+.subscribe-button a:hover {
+  transform: translateY(4px);
+  box-shadow: 0 0 #999;
+   align : center ; 
+}
+
+pre, code {
+    max-height    : 500px;
+    overflow      : scroll;
+    white-space   : pre !important;
+    text-overflow : clip !important;
+}
