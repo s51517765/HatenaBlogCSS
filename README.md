@@ -35,3 +35,7 @@ https://blog.hatena.ne.jp/あなたのID/ブログのURL/subscribe
 ## Example
 
 https://s51517765.hatenadiary.jp/
+
+## 参考
+
+https://www.noname-note.com/entry/subscribe-button
